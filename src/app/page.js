@@ -6,13 +6,11 @@ import About from "./About";
 
 export default function Home() {
   return (
-    <main className="flex justify-center my-20 tracking-wide">
-      <div className="">
-        <h1 className="font-bold text-6xl hover:text-indigo-800">Jodie Koffi</h1>
-        &nbsp;
+    <main className="flex justify-center my-20 tracking-wide ">
+      <section className="w-1/2">
+        <h1 className="font-bold text-6xl"><span>J</span>odie <span>K</span>offi</h1>
         <About/>
-        &nbsp;
-        <div className="columns-2 font-semibold">
+        <div className="columns-2 font-semibold my-5 text-fuchsia-500">
           <ul>
             <li>
               React
@@ -25,7 +23,7 @@ export default function Home() {
             <li>CSS <SiCsswizardry/> </li>
           </ul>
         </div>
-      </div>
+      </section>
     </main>
   );
 }

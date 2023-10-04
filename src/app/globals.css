@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+span {
+  color: rgb(217 70 239);
+}

@@ -1,18 +1,27 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 function Links() {
-  return <div> Read <Link href="">this page!</Link></div>;
+  return (
+    <div>
+      <Link href=""></Link>
+    </div>
+  );
 }
 
 export default function About() {
   return (
-    <div>
-      <h1 className="font-bold text-3xl">About</h1>
+    <section>
+      <h1 className="text-3xl text-fuchsia-500 my-5">About</h1>
       <h2>
-        I'm Jodie from London, United Kingdom. An apprentice JavaScript Engineer
-        with 2 years experience in building Responsive React applications.
+        {" "}
+        Hi, I'm Jodie based in <span>London</span>, United Kingdom. I am an
+        Apprentice <span>JavaScript </span> Engineer Graduate with professional
+        experience in writing <span>Clean</span>, <span>Efficient</span> and{" "}
+        <span>Robust</span> code. A <span>React</span> Developer passionate
+        about building <span>Responsive</span> web applications. I also make
+        some cool stuff in <span>CSS</span>.
       </h2>
-      <Links/>
-    </div>
+      <Links />
+    </section>
   );
 }

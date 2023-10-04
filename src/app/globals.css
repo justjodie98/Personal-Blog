@@ -29,3 +29,7 @@ body {
 span {
   color: rgb(217 70 239);
 }
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
+}
